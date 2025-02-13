@@ -3,7 +3,7 @@ using namespace std;
 
 /*
     TC: O(n)
-    SC: O(sqrt(n))
+    SC: O(sqrt(n)) A number n can have at max 2*sqrt(n) divisors
 */
 void solveBrute() {
     int n; cin >> n;
@@ -24,7 +24,7 @@ void solveBrute() {
 
 /*
     TC: O(sqrt(n)) + O(k*log(k))
-    SC: O(sqrt(n))
+    SC: O(sqrt(n)) A number n can have at max 2*sqrt(n) divisors
 */
 void solveOptimal() {
     int n; cin >> n;
